@@ -81,7 +81,7 @@ function Food(){
                     }
                 })}
          <h1>Advertisement</h1>
-         <img className = "TECH-ADD"src="https://img.freepik.com/free-vector/flat-design-food-facebook-ad_23-2149167379.jpg" width={"470"} height={"625"} />
+         <img id="Food_Add" className = "TECH-ADD"src="https://img.freepik.com/free-vector/flat-design-food-facebook-ad_23-2149167379.jpg" width={"470"} height={"625"} />
         </div>
         </div>
     )

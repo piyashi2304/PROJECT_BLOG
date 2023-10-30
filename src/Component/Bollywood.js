@@ -71,7 +71,7 @@ function Bollywood() {
                 })}
                 <h1>Advertisement</h1>
                 <div className="ADDVER">
-         <img src="https://www.theweek.in/content/dam/week/webworld/feature/society/2016/august/images/maggi-1.jpg.image.470.274.jpg" className="addver"/>
+         <img id="B0lly_Add" src="https://www.theweek.in/content/dam/week/webworld/feature/society/2016/august/images/maggi-1.jpg.image.470.274.jpg" className="addver"/>
          </div>
             </div>
         </div>

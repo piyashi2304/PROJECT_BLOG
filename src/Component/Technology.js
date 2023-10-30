@@ -75,7 +75,7 @@ function Technology(){
                     }
                 })}
          <h1>Advertisement</h1>
-         <img className ="TECH-ADD"src="https://www.investopedia.com/thmb/tFHjCFL9uLlgj5_yQ6xt6WzH7iQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/social-media-final-8f48359ac9e7486eaf40932f4a9e2597.png" width={"450"} height={"665"}/>
+         <img id="Tech_Add"className ="TECH-ADD"src="https://www.investopedia.com/thmb/tFHjCFL9uLlgj5_yQ6xt6WzH7iQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/social-media-final-8f48359ac9e7486eaf40932f4a9e2597.png" width={"450"} height={"665"}/>
         </div>
         </div>
     )

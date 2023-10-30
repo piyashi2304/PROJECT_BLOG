@@ -78,7 +78,7 @@ function Fitness(){
                     }
                 })}
          <h1>Advertisement</h1>
-         <img className = "TECH-ADD"src="https://i.pinimg.com/originals/71/26/98/712698d6b05895dcb3a3a5f16bf35815.png" width={"480"} height={"695"}/>
+         <img id="Fittness_Add" className = "TECH-ADD"src="https://i.pinimg.com/originals/71/26/98/712698d6b05895dcb3a3a5f16bf35815.png" width={"480"} height={"695"}/>
         </div>
         </div>
     )

@@ -523,7 +523,7 @@ hr{
     width: 100%;
 }
 .ADDVER{
-    border: 1px solid black ;
+    /* border: 1px solid black ; */
     width: 350px;
 }
 .addver
@@ -660,6 +660,18 @@ hr{
           .dynamicImage{
             width: 100%;
             height: auto;
+          }
+          #B0lly_Add{
+            width: 107%;
+          }
+          #Tech_Add{
+            width: 100%;
+          }
+          #Food_Add{
+            width: 100%;
+          }
+          #Fittness_Add{
+            width: 100%;
           }
 
     }
