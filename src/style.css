@@ -754,4 +754,12 @@ hr{
         justify-content: center;
         flex-direction: column;
       }
+      .storyContainer{
+        display: flex;
+        justify-content: center;
+       align-items: flex-start;
+        flex-wrap: wrap;
+        height: 300px;
+        width: 100%;
+      }
     }
