@@ -59,7 +59,7 @@ function Home() {
                                         </Link>
                                         <div className="homeContent2 ">
                                             <h2>{item.title}</h2>
-                                            <p className="HOME_CONT">{item.cont.slice(0, 66)}</p>
+                                            <p className="HOME_CONT">{item.cont.slice(0, 120)}</p>
                                             <p className="HOME_CAT">{item.cat}</p>
 
                                         </div>
@@ -89,7 +89,7 @@ function Home() {
                     
                          <img className="HOMEADD" src="https://gumlet.assettype.com/afaqs/2023-04/2e116ca4-df3e-447d-a90c-a927ecbb3022/Swiggy_Dineout___Great_Indian_Restaurant_Festival_Picture.png?auto=format,compress&fmt=webp&format=webp&w=1200&h=900&dpr=1.0"/> 
                     </div>
-                    <h1 className="line">Top Post</h1>
+                    <h1  id="line_Top"className="line ">Top Post</h1>
                     {data.filter((data) => data.cat === "Home").map((item, index) => {
                         if (item.id == 1) {
                             return (

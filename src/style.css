@@ -66,11 +66,10 @@ align-items: flex-start;
  
 }
 .HOME_CONT{
-    /* font-size: 10px;
-    text-indent: -1em;
-    text-align: left; */
+     font-size: 10px; 
+  
     line-height: 1.5; 
-    margin-right: 7em;
+    /* margin-right: 7em; */
     margin-top: 9px;
 }
 .HOME_CONT::after {
@@ -125,6 +124,7 @@ font-size: 15px;
     /* border: 2px solid rgb(120, 5, 5) ; */
     background-size: cover;
     text-align: center;
+    position: relative;
   
   
     
@@ -134,6 +134,8 @@ font-size: 15px;
     
     width: 100%;
     height: 495px;
+    position: absolute;
+    left: 220px;
    
 }
 
@@ -141,7 +143,7 @@ font-size: 15px;
 {
     
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     align-items: center;
 }
 .singleImge
@@ -165,6 +167,10 @@ font-size: 15px;
     border-bottom: 5px solid red;
     width: 200px;
    margin-right: 40px;
+}
+#line_Top{
+    position: relative;
+    left: 200px;
 }
 .dynamic
 {
@@ -456,12 +462,17 @@ hr{
     width: 340px;
     height: 200px;
    margin-right: 380px;
+   position: relative;
+   left: 220px;
    
 }
 .TopPostContent1{
     /* border: 5px solid yellow; */
     width: 200px;
     height: 90px;
+    font-size: 8px;
+    position: relative;
+    left: 220px;
     
 }
 
@@ -471,11 +482,7 @@ hr{
     height: 165px;
     /* margin: 10px; */
 }
-.TopPostContent1{
-    font-size: 8px;
-   
 
-}
 .HOME_CAT1{
     margin-top: 10px;
     font-size: 15px;
@@ -517,10 +524,14 @@ hr{
     font-size: 15px;
 }
 .CONT{
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    position: relative;
+    left: 240px;
 }
 #CONT_IMG{
     width: 100%;
+    position: relative;
+    left: 210px;
 }
 .ADDVER{
     /* border: 1px solid black ; */
@@ -578,6 +589,8 @@ hr{
             flex-direction: column;
             align-items: flex-start;
             margin: 0px;
+            position: relative;
+            left: 0px;
           }
           .homeSet2{
             display: flex;
@@ -586,6 +599,10 @@ hr{
           .latest-Article{
             display: flex;
             flex-direction: column;
+          }
+          #line_Top{
+            position: relative;
+            left: 0px;
           }
           .storyContainer{
             display: flex;
@@ -611,6 +628,8 @@ hr{
             text-align: center;
             width: 100%;
             align-items: center;
+            position: relative;
+            left: 0px;
           }
           
           .content2{
@@ -620,10 +639,17 @@ hr{
             /* align-items: center; */
             width: 100%;
             margin: 0px;
+            position: relative;
+            left: 0px;
           }
         .Homeadd{
             width: 100%;
             text-align: center;
+            position: relative;
+        }
+        .HOMEADD{
+            position: absolute;
+            left: 0px;
         }
         .bollyWoodContainer{
             display: flex;
@@ -660,6 +686,10 @@ hr{
           .dynamicImage{
             width: 100%;
             height: auto;
+          }
+          #CONT_IMG{
+            position: relative;
+            left: 0px;
           }
           #B0lly_Add{
             width: 107%;
@@ -701,6 +731,11 @@ hr{
             font-size: 20px;
             margin:0px ;
         }
+        #line_Top{
+            position: relative;
+            left: 40px;
+            top: 200px;
+        }
         .addCenter{
             font-size: 20px;
             margin-top: 10px;
@@ -727,12 +762,15 @@ hr{
             margin: 0px 0px 0px 3px;
         }
         .Homeadd{
-            margin: 0px;
+          
             height: auto;
+            position: relative;
         }
         .Homeadd img{
-            width: 50%;
+            width: 100%;
             height: 200px;
+            position: absolute;
+            left: 40px;
         }
         .singleImge{
             width: 90%;
@@ -744,11 +782,17 @@ hr{
         }
         .topPostBig{
             width: 50%;
-            height: 60px;
-            margin: 2px;
+            height: 80px;
+            /* margin: 2px; */
+            position: relative;
+            left: 40px;
+            top: 220px;
         }
         .TopPostContent1{
             font-size: 5px;
+            position: relative;
+            left: 40px;
+            top: 220px;
         }
         .HOME_CAT1{
             font-size: 9px;
@@ -756,10 +800,16 @@ hr{
         }
         #CONT_IMG{
             width: 100%;
-            height: 80px;
+            height: 90px;
+            position: relative;
+            left: 20px;
+            top: 220px;
         }
         .CONT{
             font-size: 7px;
+            position: relative;
+            left: 40px;
+            top: 220px;
         }
       .bollyWoodContainer{
         display: flex;
