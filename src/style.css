@@ -458,7 +458,7 @@ hr{
 }
 .topPostBig
 {   
-    border: 1px solid rgb(54, 20, 224);
+    /* border: 1px solid rgb(54, 20, 224); */
     width: 340px;
     height: 200px;
    margin-right: 380px;
@@ -481,6 +481,10 @@ hr{
     width: 150px;
     height: 165px;
     /* margin: 10px; */
+}
+#TOP_POST_IMG{
+    position: relative;
+    left: 0px;
 }
 
 .HOME_CAT1{
@@ -631,6 +635,7 @@ hr{
             position: relative;
             left: 0px;
           }
+           
           
           .content2{
             display: flex;
@@ -787,6 +792,11 @@ hr{
             position: relative;
             left: 40px;
             top: 220px;
+        }
+        #TOP_POST_IMG{
+            position: relative;
+            left: 0px;
+            top: 2px;
         }
         .TopPostContent1{
             font-size: 5px;
