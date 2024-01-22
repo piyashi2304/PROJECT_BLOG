@@ -11,6 +11,7 @@ import DynamicCompo from "./DynamicCompo"
 import Footer from "./Footer"
 
 
+
 function RouterCompo(){
     return(
         <>
@@ -34,6 +35,7 @@ function RouterCompo(){
             <Route path='/hollywood' element ={<Hollywood />}/>
             <Route path='/fitness'  element ={<Fitness />}/>
             <Route path='/food' element ={<Food />}/>
+        
             <Route path='/details/:id' element={<DynamicCompo />} />
           </Routes>
           </StoreCompo>

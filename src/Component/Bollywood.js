@@ -20,7 +20,7 @@ function Bollywood() {
                                 </Link>
                                 <div className="content">
                                     <h2>{item.title}</h2>
-                                    <p>{item.cont.slice(0, 70)}</p>
+                                    <p>{item.cont.slice(0, 150)}</p>
                                     <p>{item.cat}</p>
                                 </div>
                             </div>
